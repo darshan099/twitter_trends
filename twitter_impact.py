@@ -56,7 +56,7 @@ def word_in_text(text):
 	text=text.lower()
 	
 	for i in range(len(positive_words)):
-		if positive_words[i] in text:
+ 		if positive_words[i] in text:
 			pos_word=pos_word+1
 	for i in range(len(negetive_words)):
 		if negetive_words[i] in text:
@@ -73,7 +73,7 @@ if __name__=='__main__':
 	#getting a trend from user
 	print ("enter a trend to check whether its positive or negetive")
 	trend=raw_input()
-      print ("wait for 60 seconds")
+        print ("wait for 60 seconds")
 	
 	
 	#twitter authentication
